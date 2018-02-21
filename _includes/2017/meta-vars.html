@@ -26,7 +26,7 @@ It emits some blank lines because Jekyll, lol.
 
 {% if site.data.assets.preview_host %}{% capture meta_image %}{%
   if page.url == '/'
-%}{{ site.data.assets.preview_host }}/index.jpg?t={{ timestamp }}{%
+%}{{ site.url | uri_escape }}/assets/images/index.png?t={{ timestamp }}{%
   else
 %}{{ site.data.assets.preview_host }}{{ include.page.url | remove: '.html' }}.jpg?t={{ timestamp }}{%
   endif
