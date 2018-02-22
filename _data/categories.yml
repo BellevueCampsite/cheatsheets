@@ -1,7 +1,9 @@
 enabled: true
 names:
-  - CSS
+  - Bootstrap
   - HTML
+  - jQuery
+  - CSS
   - JavaScript
   - JavaScript libraries
   - Git
