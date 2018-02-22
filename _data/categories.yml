@@ -1,24 +1,7 @@
 enabled: true
 names:
-  - Analytics
-  - Ansible
-  - Apps
-  - CLI
   - CSS
-  - Devops
-  - Elixir
-  - Git
   - HTML
   - JavaScript
   - JavaScript libraries
-  - Jekyll
-  - Ledger
-  - Markup
-  - Node.js
-  - Rails
-  - React
-  - Ruby
-  - Ruby libraries
-  - Vim
-  - Fitness
-  - Others
+  - Git
